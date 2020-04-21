@@ -9,7 +9,7 @@ def square_array(array)
     new_numbers[element] = element * element
   end
 
-  puts new_numbers
+  return  new_numbers
 end
 
 square_array(numbers)
