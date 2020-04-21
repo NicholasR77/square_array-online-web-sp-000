@@ -6,7 +6,7 @@ def square_array(array)
   new_numbers = []
 
   array.each do |element|
-    puts position = element.index
+    array[element] = element * element
   end
 
   puts new_numbers
