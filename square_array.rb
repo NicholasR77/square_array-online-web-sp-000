@@ -4,7 +4,7 @@ new_numbers = []
 def square_array(array)
   # your code here
   array.each do |element|
-    new_numbers[0] = element
+    puts "Current element is #{element}"
   end
 end
 
