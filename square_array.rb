@@ -8,5 +8,4 @@ def square_array(array)
   end
 end
 
-puts numbers
-puts new_numbers
+square_array(numbers)
